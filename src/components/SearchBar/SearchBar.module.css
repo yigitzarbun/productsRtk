@@ -1,0 +1,23 @@
+.searchBar {
+  width: 40%;
+  border-radius: 5px;
+  padding: 2vh;
+  height: 2vh;
+  border: 2px solid aquamarine;
+  margin-right: 5px;
+}
+
+.clearButton {
+  border-radius: 5px;
+  padding: 2vh;
+  height: 6vh;
+  border: 2px solid red;
+  background-color: white;
+  font-weight: bold;
+}
+
+.clearButton:hover {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}

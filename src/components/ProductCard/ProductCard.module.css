@@ -1,0 +1,43 @@
+.productCard {
+  width: 21%;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 5px;
+}
+.topPart {
+  display: flex;
+  justify-content: space-between;
+}
+.productImage {
+  height: 15vh;
+  width: 15vw;
+  object-fit: contain;
+}
+
+.productTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.productPrice {
+  text-decoration: line-through;
+}
+
+.discountedPrice {
+  color: green;
+  font-weight: bold;
+}
+
+.productBrand {
+  padding: 4px;
+  background-color: rgb(0, 157, 255);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.productCategory {
+  padding: 4px;
+  background-color: rgb(0, 255, 157);
+  border-radius: 5px;
+  font-weight: bold;
+}
